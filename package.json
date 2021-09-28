@@ -1,0 +1,33 @@
+{
+  "name": "react17-x-redux-x-mui4-starter",
+  "version": "1.0.0",
+  "description": "wishlist A:\n✅ initial store\n✅ basic component w/ hook\n✅ basic \"connected\" component w/ HOC and hooks\n✅ basic action\n✅ async action /w saga, epic and/or thunk\n✅ basic reducer\n✅ basic selector\n❌ selector /w `reselect`\n❌ styled component w/ `mui`\n✅ dev tools integration\n",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@fontsource/roboto-mono": "4.5.0",
+    "@material-ui/core": "4.12.3",
+    "prop-types": "15.7.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.4",
+    "react-scripts": "4.0.3",
+    "redux": "4.1.1",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "3.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
