@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { connect, useSelector, useDispatch } from "react-redux";
-import * as actions from "../actions";
+import * as actionCreators from "../actionCreators";
 import * as selectors from "../selectors";
 
 import { Typography, Avatar, Container } from "@material-ui/core";
@@ -50,7 +50,7 @@ Helloer.ConnectedWithHook = (props) => {
   useEffect(() => {
     const ts = new Date();
     const nextName = `coder @ ${ts}`;
-    dispatch(actions.setNameWithDelay(nextName, 5000));
+    dispatch(actionCreators.setNameWithDelay(nextName, 5000));
   }, []);
   return <Helloer {...props} name={name} />;
 };
